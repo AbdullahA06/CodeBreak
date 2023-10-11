@@ -1,9 +1,19 @@
 const answer =Number( Math.floor(Math.random() * (3 - 1 + 1) + 1) +""+ Math.floor(Math.random() * (3 - 1 + 1) + 1)+ ""+ Math.floor(Math.random() * (3 - 1+ 1) + 1))
 const button = document.querySelector("button");
+const button2 = document.querySelector("button2");
 let win = 0;
 
 button.addEventListener("click", guess);
+button2.addEventListener("click", clear2);
 
+
+
+function clear2(){
+
+    document.getElementById('fname1').value= null;
+    document.getElementById('fname2').value= null;
+    document.getElementById('fname3').value= null;
+}
 
 
 
@@ -16,10 +26,10 @@ function guess() {
     
 
     if(document.getElementById('attempts').innerHTML==0){
-      document.getElementById('fname1').value= null;
+        document.getElementById('fname1').value= null;
         document.getElementById('fname2').value= null;
         document.getElementById('fname3').value= null;
-      const attempt3= document.createElement("p");
+        const attempt3= document.createElement("p");
         attempt3.textContent = "You Lost!";
         document.body.appendChild(attempt3);
         alert("The Cops Arrived. You Are A Terrible CodeBreaker!");
@@ -41,6 +51,7 @@ function guess() {
   
   
   if(guess==answer){
+  var range = "is correct!";
   alert("Congrats!! You Won!!");
   clear();
   win=win+1;
