@@ -77,8 +77,8 @@ p{
    
 }
 .button {
-    background: #232D3F;
-    border: 1px solid #232D3F;
+    background: #008170;
+    border: 1px solid #008170;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     box-sizing: border-box;
@@ -106,7 +106,7 @@ p{
   .button:active {
     background-color: initial;
     background-position: 0 0;
-    color: #232D3F;
+    color: #008170;
   }
   
   .button:active {
@@ -114,8 +114,8 @@ p{
   }    
 
     .button2 {
-      background: #008170;
-      border: 1px solid #008170;
+      background: #232D3F;
+      border: 1px solid #232D3F;
       border-radius: 6px;
       box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
       box-sizing: border-box;
@@ -142,7 +142,7 @@ p{
     .button2:active {
       background-color: initial;
       background-position: 0 0;
-      color: #008170;
+      color: #232D3F;
     }
     
     .button2:active {
