@@ -1,13 +1,52 @@
 body{
     background-color: black;
     text-align: center;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    
+}
+header{
+   
+  
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #005B41;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 30px 30px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    
+}
+h1{
+    margin-top: 8px;
+    margin-bottom: 55px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #005B41;
+    text-align: center;
+    font-family:nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-style: italic;
     
 }
 #attempts{
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-bottom: 20px;
     font-size: 44px;
-    color: white;
+    font-weight: 800;
+    color: #FFFFF0;
     text-align: center;
+    font-family:nunito,roboto,proxima-nova,"proxima nova",sans-serif;
 }
 
 #code{
@@ -16,24 +55,96 @@ text-align: center;
 input{
     font-size:large;
     text-align: center;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+    
 }
-#p1{
-    color: blue;
-    background-color: yellow;
-}
-#p2{
-    color: blue;
-    background-color: yellow;
-}
+
+
 p{
-    color: white;
+    color: #005B41;
+    font-weight: 800;
+    font-family:nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 18px;
 }
 #text{
     font-size: 30px;
-    color: white;
+    color: #FFFFF0;
     text-align: center;
     margin-bottom: 10px;
+    font-weight: 800;
+    font-family:nunito,roboto,proxima-nova,"proxima nova",sans-serif;
    
 }
+.button {
+    background: #232D3F;
+    border: 1px solid #232D3F;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #232D3F;
+  }
+  
+  .button:active {
+    opacity: .5;
+  }    
+
+    .button2 {
+      background: #008170;
+      border: 1px solid #008170;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 16px;
+      min-height: 40px;
+      outline: 0;
+      padding: 12px 14px;
+      text-align: center;
+      text-rendering: geometricprecision;
+      text-transform: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+    }
+    
+    .button2:hover,
+    .button2:active {
+      background-color: initial;
+      background-position: 0 0;
+      color: #008170;
+    }
+    
+    .button2:active {
+      opacity: .5;
+    }    
