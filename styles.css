@@ -1,19 +1,20 @@
 body{
     background-color: black;
     text-align: center;
-
+    
 }
 #attempts{
+    margin-top: 10px;
     font-size: 44px;
     color: white;
     text-align: center;
 }
 
 #code{
-    text-align: center;
+text-align: center;
 }
 input{
-    font-size: large;
+    font-size:large;
     text-align: center;
     height: 20px;
     width: 20px;
@@ -28,4 +29,11 @@ input{
 }
 p{
     color: white;
+}
+#text{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+   
 }
