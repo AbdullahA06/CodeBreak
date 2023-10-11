@@ -27,13 +27,13 @@ function guess() {
         return "finished";
     }
     
-
+    var range;
     function clear(){
         document.getElementById('fname1').value= null;
         document.getElementById('fname2').value= null;
         document.getElementById('fname3').value= null;
         const attempt= document.createElement("p");
-        attempt.textContent = guess;
+        attempt.textContent = guess+" "+range;
         document.body.appendChild(attempt);
         document.getElementById('attempts').innerHTML=Number(document.getElementById('attempts').innerHTML)-1  
     }
@@ -47,12 +47,14 @@ function guess() {
   
   }
   if(guess>answer){
-  alert("Too High");
+  var range = "is too high!";
+ 
   clear();
 
 }
   else if(guess<answer){
-  alert("Too Low");
+  var range= "is too low!";
+ 
   clear();
 }
   
