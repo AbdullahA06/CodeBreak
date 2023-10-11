@@ -99,7 +99,7 @@ p{
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-    margin-right: 15px;
+    
   }
   
   .button:hover,
@@ -136,6 +136,7 @@ p{
       -webkit-user-select: none;
       touch-action: manipulation;
       vertical-align: middle;
+        margin-right: 15px;
     }
     
     .button2:hover,
