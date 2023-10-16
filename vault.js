@@ -1,11 +1,34 @@
 const answer =Number( Math.floor(Math.random() * (3 - 1 + 1) + 1) +""+ Math.floor(Math.random() * (3 - 1 + 1) + 1)+ ""+ Math.floor(Math.random() * (3 - 1+ 1) + 1))
-const button = document.querySelector("button");
+const button1 = document.querySelector("button1");
 const button2 = document.querySelector("button2");
+const button3 = document.querySelector("button3");
+const button4 = document.querySelector("button4");
 let win = 0;
 
-button.addEventListener("click", guess);
-button2.addEventListener("click", clear2);
 
+
+
+button1.addEventListener("click", clear2);
+button2.addEventListener("click", guess);
+button3.addEventListener("click", rules);
+button4.addEventListener("click", reset);
+
+
+function rules(){
+  var rules = document.getElementById('rules')
+  if (rules.style.visibility = "visible"){
+    rules.style.visibility = "hidden";
+  }
+  else{
+    rules.style.visibility = "visible";
+  }
+ 
+}
+
+
+function reset(){
+  document.location.reload(true);
+}
 
 
 function clear2(){
@@ -80,3 +103,4 @@ else if (win==1){
         document.body.appendChild(attempt2);
 }
 }
+ 
