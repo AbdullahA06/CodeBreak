@@ -19,7 +19,7 @@ function rules(){
   if (rules.style.visibility === "hidden"){
     rules.style.visibility = "visible";
   }
-  else{
+  if(rules.style.visibility === "visible"){
     rules.style.visibility = "hidden";
   }
  
