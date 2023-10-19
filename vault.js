@@ -16,12 +16,13 @@ button4.addEventListener("click", reset);
 
 function rules(){
   var rules = document.getElementById('rules');
-  if (rules.style.visibility === "hidden"){
-    rules.style.visibility = "visible";
-  }
   if(rules.style.visibility === "visible"){
     rules.style.visibility = "hidden";
   }
+  if (rules.style.visibility === "hidden"){
+    rules.style.visibility = "visible";
+  }
+  
  
 }
 
